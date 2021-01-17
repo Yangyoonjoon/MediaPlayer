@@ -1,0 +1,6 @@
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/0.wav
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/1.wav
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/2.wav
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/3.wav
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/file_example_OOG_1MG.ogg
+C:/Users/Administrator/Desktop/29차시/29차시/음악파일/Sample_BeeMoved_96kHz24bit.flac
