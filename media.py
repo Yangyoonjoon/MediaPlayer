@@ -22,6 +22,9 @@ class Media(QObject):
         self.mc_signal.connect(self.parent.OnMusicChanged)
         self.pos_signal.connect(self.parent.OnPosChanged)
 
+    def OnMode(self, idx):
+        self.list.setPlaybackMode(idx)
+
     def OnPosChanged(self, pos):
         self.pos_signal.emit(pos)
 
@@ -39,6 +42,9 @@ class Media(QObject):
     def OnPlay(self, idx):
         self.list.setCurrentIndex(idx)
         self.player.play()
+
+    def OnPlayPos(self, pos):
+        self.player.setPosition(pos)
 
     def OnStop(self):
         self.player.stop()
